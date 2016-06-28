@@ -1,1 +1,78 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #BDF1FF;
+  font-family: 'Arial', sans-serif;
+}
 
+/** HEADER **/
+#header-nav {
+  background-color: #7C678A;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  vertical-align: middle;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Arial', serif;
+  color: #BDF1FF;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-toggle { /*3 bar button that appears on mobile */
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background-color: #BDF1FF;
+}
+
+#nav-list { /* The list that appears once you click 3-bar-button */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: transparent;
+
+}
+#nav-list a {
+  color: navy;
+
+}
+#nav-list a:hover, a:focus {
+  background: #E7E7E7;
+}
+
+.navbar-default .navbar-toggle .icon-bar { /* Changes color of 3 bars */
+  background-color: #222; 
+  
+}
+.navbar-default .navbar-toggle { /* Changes background-color toggle button */
+background-color: #BDF1FF;
+}
+
+#nav-list a span {
+  font-size: 1.2em;
+}
+/** END HEADER **/
+/** MAIN CONTENT **/
+
+#main-content{
+  padding: 10px;
+}
+
+#main-content h2 {
+  text-align: center;
+  color: #000;
+  padding-bottom: 25px;
+}
+.largeparagraph {
+  background-color: #555;
+  height: 2000px;
+}
+/**END MAIN CONTENT **/
