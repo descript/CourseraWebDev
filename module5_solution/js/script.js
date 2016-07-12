@@ -117,7 +117,7 @@ function buildAndShowHomeHTML(categories) {
       // it into the home html snippet.
       // console.log(chosenCategoryShortName);
       // var specials = chosenCategoryShortName.short_name; WRONG DONT NEED?
-      var homeHtmlToInsertIntoMainPage = insertProperty(homeHtmlUrl, "randomCategoryShortName", "'" + chosenCategoryShortName + "'");
+      var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", "'" + chosenCategoryShortName + "'");
       // console.log(homeHtmlToInsertIntoMainPage);
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
